@@ -1,0 +1,153 @@
+2026-09-26 16:01:49,052 INFO Início da execução; semana de 2026-09-14 a 2026-09-20
+2026-09-26 16:01:49,054 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:01:49,079 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:01:49,183 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:01:49,184 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:01:49,184 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:01:49,221 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2026-09-14.html | propostas da semana: 0 | separador: ,
+2026-09-26 16:02:15,191 INFO Início da execução; semana de 2026-09-14 a 2026-09-20
+2026-09-26 16:02:15,192 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:02:15,220 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:02:15,312 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:02:15,313 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:02:15,313 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:02:15,338 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2026-09-14.html | propostas da semana: 0 | separador: ,
+2026-09-26 16:06:21,732 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:06:21,771 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:06:21,899 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:06:21,899 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:06:21,900 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:06:21,901 INFO Sem data de referência informada; usando a semana mais recente com dados
+2026-09-26 16:06:21,901 INFO Início da execução; semana de 2025-12-29 a 2026-01-04
+2026-09-26 16:06:21,937 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2025-12-29.html | propostas da semana: 1 | separador: ,
+2026-09-26 16:09:15,279 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:09:15,305 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:09:15,398 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:09:15,398 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:09:15,398 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:09:15,399 INFO Sem referência informada; usando maio de 2025 e comparando com abril de 2025
+2026-09-26 16:09:15,399 INFO Início da execução; período de 2025-05-01 a 2025-05-31
+2026-09-26 16:09:15,425 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2025-05-01.html | propostas no período: 357 | separador: ,
+2026-09-26 16:10:12,079 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:10:12,106 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:10:12,197 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:10:12,197 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:10:12,198 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:10:12,198 INFO Sem referência informada; usando maio de 2025 e comparando com abril de 2025
+2026-09-26 16:10:12,198 INFO Início da execução; período de 2025-05-01 a 2025-05-31
+2026-09-26 16:10:12,226 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2025-05-01.html | propostas no período: 357 | separador: ,
+2026-09-26 16:12:12,861 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:12:12,892 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:12:12,989 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:12:12,989 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:12:12,990 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:12:12,990 INFO Sem referência informada; usando maio de 2025 e comparando com abril de 2025
+2026-09-26 16:12:12,991 INFO Início da execução; período de 2025-05-01 a 2025-05-31
+2026-09-26 16:12:13,020 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2025-05-01.html | propostas no período: 357 | separador: ,
+2026-09-26 16:12:23,933 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:12:23,965 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:12:24,062 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:12:24,062 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:12:24,062 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:12:24,063 INFO Sem referência informada; usando maio de 2025 e comparando com abril de 2025
+2026-09-26 16:12:24,063 INFO Início da execução; período de 2025-05-01 a 2025-05-31
+2026-09-26 16:12:24,093 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2025-05-01.html | propostas no período: 357 | separador: ,
+2026-09-26 16:13:43,208 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:13:43,235 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:13:43,326 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:13:43,326 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:13:43,327 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:13:43,327 INFO Sem referência informada; usando maio de 2025 e comparando com abril de 2025
+2026-09-26 16:13:43,328 INFO Início da execução; período de 2025-05-01 a 2025-05-31
+2026-09-26 16:13:43,354 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2025-05-01.html | propostas no período: 357 | separador: ,
+2026-09-26 16:15:53,880 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:15:53,906 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:15:53,998 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:15:53,998 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:15:53,999 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:15:53,999 INFO Sem referência informada; usando maio de 2025 e comparando com abril de 2025
+2026-09-26 16:15:53,999 INFO Início da execução; período de 2025-05-01 a 2025-05-31
+2026-09-26 16:15:54,026 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2025-05-01.html | propostas no período: 357 | separador: ,
+2026-09-26 16:16:15,332 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:16:15,360 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:16:15,464 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:16:15,465 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:16:15,465 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:16:15,466 INFO Sem referência informada; usando maio de 2025 e comparando com abril de 2025
+2026-09-26 16:16:15,466 INFO Início da execução; período de 2025-05-01 a 2025-05-31
+2026-09-26 16:16:15,492 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2025-05-01.html | propostas no período: 357 | separador: ,
+2026-09-26 16:18:50,295 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:18:50,324 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:18:50,424 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:18:50,424 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:18:50,425 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:18:50,425 INFO Início da execução; período de 2024-12-30 a 2025-01-05
+2026-09-26 16:18:50,454 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2024-12-30.html | propostas no período: 88 | separador: ,
+2026-09-26 16:18:59,368 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:18:59,399 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:18:59,491 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:18:59,492 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:18:59,492 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:18:59,493 INFO Sem referência informada; usando a semana mais recente com dados
+2026-09-26 16:18:59,493 INFO Início da execução; período de 2025-12-29 a 2026-01-04
+2026-09-26 16:18:59,521 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2025-12-29.html | propostas no período: 1 | separador: ,
+2026-09-26 16:23:20,136 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:23:20,164 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:23:20,255 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:23:20,255 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:23:20,255 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:23:20,256 INFO Sem referência informada; usando a semana mais recente com dados
+2026-09-26 16:23:20,256 INFO Início da execução; período de 2025-12-29 a 2026-01-04
+2026-09-26 16:23:20,280 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2025-12-29.html | propostas no período: 1 | separador: ,
+2026-09-26 16:23:38,821 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:23:38,856 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:23:38,956 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:23:38,956 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:23:38,956 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:23:38,957 INFO Início da execução; período de 2025-04-28 a 2025-05-04
+2026-09-26 16:23:38,982 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2025-04-28.html | propostas no período: 104 | separador: ,
+2026-09-26 16:23:49,800 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:23:49,830 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:23:49,933 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:23:49,934 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:23:49,934 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:23:49,934 INFO Início da execução; período de 2025-05-26 a 2025-06-01
+2026-09-26 16:23:49,959 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2025-05-26.html | propostas no período: 62 | separador: ,
+2026-09-26 16:23:59,843 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:23:59,872 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:23:59,962 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:23:59,962 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:23:59,963 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:23:59,963 INFO Sem referência informada; usando a semana mais recente com dados
+2026-09-26 16:23:59,963 INFO Início da execução; período de 2025-12-29 a 2026-01-04
+2026-09-26 16:23:59,988 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2025-12-29.html | propostas no período: 1 | separador: ,
+2026-09-26 16:25:56,617 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:25:56,654 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:25:56,767 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:25:56,767 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:25:56,767 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:25:56,767 INFO Sem referência informada; usando a semana atual
+2026-09-26 16:25:56,768 INFO Início da execução; período de 2026-09-21 a 2026-09-27
+2026-09-26 16:25:56,793 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2026-09-21.html | propostas no período: 0 | separador: ,
+2026-09-26 16:26:06,224 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:26:06,255 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:26:06,348 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:26:06,349 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:26:06,349 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:26:06,349 INFO Início da execução; período de 2024-12-30 a 2025-01-05
+2026-09-26 16:26:06,378 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2024-12-30.html | propostas no período: 88 | separador: ,
+2026-09-26 16:26:24,923 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:26:24,949 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:26:25,043 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:26:25,043 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:26:25,043 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:26:25,044 INFO Sem referência informada; usando a semana atual
+2026-09-26 16:26:25,044 INFO Início da execução; período de 2026-09-21 a 2026-09-27
+2026-09-26 16:26:25,068 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2026-09-21.html | propostas no período: 0 | separador: ,
+2026-09-26 16:26:45,659 INFO Lendo C:\ProjetosDev\case_bari\data\raw\propostas_credito.csv com separador ','
+2026-09-26 16:26:45,685 INFO CSV carregado: 6400 linhas e 19 colunas
+2026-09-26 16:26:45,775 INFO Tratamento: 535 terrenos excluídos; 5865 propostas elegíveis
+2026-09-26 16:26:45,776 INFO Qualidade: {'brutas': 6400, 'terrenos': 535, 'datas_br': 3, 'valores_com_prefixo': 3, 'canais_normalizados': 1414, 'etapas_invalidas': 1, 'idades_menores_18': 1, 'assinaturas_anteriores': 1, 'contratos_ltv_acima_60': 109}
+2026-09-26 16:26:45,776 WARNING Há 1 etapa(s) fora de 1 a 6; ficam no total e fora da tabela por etapa
+2026-09-26 16:26:45,776 INFO Início da execução; período de 2025-03-31 a 2025-04-06
+2026-09-26 16:26:45,801 INFO Relatório gerado: C:\ProjetosDev\case_bari\outputs\relatorios\relatorio_2025-03-31.html | propostas no período: 89 | separador: ,

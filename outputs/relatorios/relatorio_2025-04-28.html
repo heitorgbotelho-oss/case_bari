@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Funil de crédito | 28/04/2025 a 04/05/2025</title>
+<style>
+body{font:16px/1.5 system-ui,Arial,sans-serif;color:#173046;background:#f4f7fa;margin:0}
+main{max-width:1080px;margin:32px auto;padding:0 20px 40px}
+h1{font-size:1.9rem;margin-bottom:4px}h2{margin-top:32px;font-size:1.25rem}
+.muted,small{color:#566b7a}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:24px 0}
+.card{background:#fff;border:1px solid #dbe4eb;border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:6px}
+.card strong{font-size:1.5rem;color:#155b76}.card small{font-size:.82rem}
+table{width:100%;border-collapse:collapse;background:#fff}th,td{padding:10px 12px;text-align:left;border-bottom:1px solid #e2e9ef}
+th{background:#e8f1f6}.table-wrap{overflow-x:auto;border-radius:8px;border:1px solid #dbe4eb}
+.note{background:#eaf4f7;border-left:4px solid #27738a;padding:12px 16px;border-radius:4px}
+footer{margin-top:32px;color:#566b7a;font-size:.9rem}
+</style></head><body><main>
+<h1>Relatório do funil de crédito</h1>
+<p class="muted">Entradas de 28/04/2025 a 04/05/2025 · Referência 01/05/2025 · Gerado em 26/09/2026 16:23</p>
+<div class="cards"><div class="card"><span>Propostas recebidas</span><strong>104</strong><small>semana anterior: 89</small></div><div class="card"><span>Contratadas no status atual</span><strong>25</strong><small></small></div><div class="card"><span>Conversão observada</span><strong>24,0%</strong><small></small></div><div class="card"><span>Crédito solicitado</span><strong>R$ 40.111.978,46</strong><small>semana anterior: R$ 34.236.186,02</small></div><div class="card"><span>Solicitado não contratado</span><strong>R$ 30.269.264,82</strong><small>exposição bruta; não é receita perdida</small></div></div>
+<p class="note"><strong>Leitura correta:</strong> o período agrupa propostas pela data de entrada. Contratação e status são os valores presentes no CSV recebido nesta execução, sem histórico de quando cada status mudou. Coortes recentes podem ter tido menos tempo para contratar.</p>
+<h2>Por canal de origem</h2><div class="table-wrap"><table><thead><tr><th>Canal</th><th>Propostas</th><th>Contratadas</th><th>Conversão observada</th><th>Crédito solicitado</th></tr></thead><tbody><tr><td>Mídia paga</td><td>27</td><td>9</td><td>33,3%</td><td>R$ 9.544.245,30</td></tr><tr><td>Orgânico</td><td>22</td><td>3</td><td>13,6%</td><td>R$ 8.693.669,48</td></tr><tr><td>Correspondente</td><td>20</td><td>7</td><td>35,0%</td><td>R$ 7.389.334,70</td></tr><tr><td>Indicação</td><td>18</td><td>3</td><td>16,7%</td><td>R$ 7.443.372,84</td></tr><tr><td>Parceria</td><td>17</td><td>3</td><td>17,6%</td><td>R$ 7.041.356,14</td></tr></tbody></table></div>
+<h2>Não contratadas por etapa máxima</h2><div class="table-wrap"><table><thead><tr><th>Etapa máxima</th><th>Propostas</th><th>Crédito solicitado não contratado</th></tr></thead><tbody><tr><td>1</td><td>3</td><td>R$ 916.944,83</td></tr><tr><td>2</td><td>11</td><td>R$ 4.734.563,17</td></tr><tr><td>3</td><td>37</td><td>R$ 14.649.849,87</td></tr><tr><td>4</td><td>16</td><td>R$ 4.923.152,16</td></tr><tr><td>5</td><td>12</td><td>R$ 5.044.754,79</td></tr></tbody></table></div>
+<p class="muted">Cada proposta não contratada aparece uma vez na sua etapa máxima. O valor pedido não é lucro, desembolso ou perda recuperável.</p>
+<h2>Desfecho registrado no CSV</h2><div class="table-wrap"><table><thead><tr><th>Status</th><th>Propostas</th><th>Crédito solicitado</th></tr></thead><tbody><tr><td>Contratada</td><td>25</td><td>R$ 9.842.713,64</td></tr><tr><td>Desistiu</td><td>25</td><td>R$ 9.758.894,40</td></tr><tr><td>Sem retorno</td><td>23</td><td>R$ 7.974.161,25</td></tr><tr><td>Reprovada crédito</td><td>14</td><td>R$ 6.567.208,43</td></tr><tr><td>Problema garantia</td><td>10</td><td>R$ 3.693.442,02</td></tr><tr><td>Documentação pendente</td><td>7</td><td>R$ 2.275.558,72</td></tr></tbody></table></div>
+<h2>Qualidade e contexto</h2><ul><li>A data de referência é anterior a entradas presentes neste CSV. Este é um exemplo retrospectivo de coorte; os status podem ter mudado depois da referência e não reconstituem o relatório histórico daquela data.</li><li>A base completa contém 1 etapa(s) fora da faixa 1–6.</li></ul>
+<p>Base de entrada: 6400 registros; 535 terrenos excluídos; 5865 propostas na base analítica. Conversão observada no arquivo completo: 19,2%.</p>
+<p class="muted">Última entrada elegível registrada: 29/12/2025. Fonte: propostas_credito.csv (dados sintéticos do desafio Bari). Ver logs para detalhes do tratamento: 3 datas brasileiras, 3 valores de imóvel com R$, 1414 rótulos de canal padronizados. A unidade de <code>taxa_juros_aa</code> é ambígua e não entra no relatório; 109 contratos têm LTV solicitado acima de 60%, o que pede reconciliação com o valor aprovado.</p>
+<footer>Relatório para acompanhamento operacional. Os indicadores de conversão não medem desempenho causal dos canais.</footer>
+</main></body></html>
