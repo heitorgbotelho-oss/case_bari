@@ -1,6 +1,6 @@
 # case_bari
 
-## Executar o notebook
+## Parte 1: Executar o notebook
 
 O notebook do projeto está em `notebooks/teste.ipynb`. No Windows, abra o PowerShell na pasta raiz do projeto e execute:
 
