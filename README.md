@@ -1,4 +1,4 @@
-# Case Bari
+# Desafio Prático — Estágio AI & Data Lab | Bari 
 
 Projeto em Python para análise de funil de crédito com garantia de imóvel, diagnóstico do cenário atual e extração estruturada de informações de laudos.
 
@@ -166,6 +166,7 @@ data/raw/propostas_credito.csv
 
 Contém as propostas de crédito analisadas no funil, com as colunas usadas para:
 
+<<<<<<< HEAD
 - identificar entrada da proposta;
 - segmentar por canal e tipo de imóvel;
 - operar a conversão e etapas do funil;
@@ -211,3 +212,6 @@ Se quiser, posso também:
 - revisar e enriquecer [reports/diagnostico_funil.md](reports/diagnostico_funil.md);
 - criar um guia de execução mais detalhado por etapa;
 - preparar uma versão do README em inglês ou com badges e tabela de status.
+=======
+A conta do Windows que executa a tarefa precisa ter permissão de leitura no CSV e permissão de gravação nas pastas `outputs/relatorios` e `logs`. O BAT localiza a raiz do projeto a partir do próprio arquivo, então também funciona se o Agendador usar outro diretório de trabalho.
+>>>>>>> cbc1d02003a6ce4a04dc37293df41a001822dd4d
