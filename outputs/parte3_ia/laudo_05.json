@@ -1,0 +1,59 @@
+{
+  "arquivo": "laudo_05.txt",
+  "tipo_imovel": "imóvel rural denominado Sítio Boa Vista",
+  "endereco": "Campinas, SP",
+  "areas": [
+    {
+      "tipo": "terreno",
+      "valor_m2": 48000.0,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Área do terreno: 4,8 ha"
+    },
+    {
+      "tipo": "construida",
+      "valor_m2": 310.0,
+      "valores_conflitantes_m2": [],
+      "texto_original": "benfeitorias construídas: 310 m²"
+    }
+  ],
+  "ano_construcao": 1999,
+  "valor_avaliacao_brl": 1275000.0,
+  "matricula": "32.110",
+  "onus": {
+    "situacao": "onus_identificados",
+    "descricao": "reserva legal registrada; não foi apontada hipoteca."
+  },
+  "data_vistoria": "2025-04-07",
+  "responsavel_tecnico": "João A. Farias, CREA-SP 5076543210",
+  "evidencias": {
+    "tipo_imovel": [
+      "Objeto: imóvel rural denominado Sítio Boa Vista."
+    ],
+    "endereco": [
+      "Município de Campinas, UF SP."
+    ],
+    "areas": [
+      "Área do terreno: 4,8 ha",
+      "benfeitorias construídas: 310 m²"
+    ],
+    "ano_construcao": [
+      "Ano das edificações: 1999."
+    ],
+    "valor_avaliacao_brl": [
+      "Valor total da avaliação: R$ 1.275.000,00."
+    ],
+    "matricula": [
+      "Matrícula 32.110."
+    ],
+    "onus": [
+      "Ônus: reserva legal registrada; não foi apontada hipoteca."
+    ],
+    "data_vistoria": [
+      "Inspeção em 07/04/2025."
+    ],
+    "responsavel_tecnico": [
+      "Perito avaliador: João A. Farias, CREA-SP 5076543210."
+    ]
+  },
+  "alertas": []
+}

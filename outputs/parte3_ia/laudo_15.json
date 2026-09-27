@@ -1,0 +1,64 @@
+{
+  "arquivo": "laudo_15.txt",
+  "tipo_imovel": "casa",
+  "endereco": "Rua Monte Verde, 19, Curitiba-PR",
+  "areas": [
+    {
+      "tipo": "terreno",
+      "valor_m2": 200.0,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Área do terreno 200 m²"
+    },
+    {
+      "tipo": "construida",
+      "valor_m2": 135.0,
+      "valores_conflitantes_m2": [],
+      "texto_original": "área construída 135 m²"
+    }
+  ],
+  "ano_construcao": null,
+  "valor_avaliacao_brl": 590000.0,
+  "matricula": "39.240",
+  "onus": {
+    "situacao": "onus_identificados",
+    "descricao": "A certidão consultada informa hipoteca ativa."
+  },
+  "data_vistoria": "2025-06-12",
+  "responsavel_tecnico": "Patrícia Gomes",
+  "evidencias": {
+    "tipo_imovel": [
+      "Imóvel residencial: casa"
+    ],
+    "endereco": [
+      "Rua Monte Verde, 19, Curitiba-PR"
+    ],
+    "areas": [
+      "Área do terreno 200 m², área construída 135 m²."
+    ],
+    "ano_construcao": [
+      "Ano 2003."
+    ],
+    "valor_avaliacao_brl": [
+      "Avaliação apresentada em R$ 590.000,00."
+    ],
+    "matricula": [
+      "Matrícula 39.240."
+    ],
+    "onus": [
+      "A certidão consultada informa hipoteca ativa."
+    ],
+    "data_vistoria": [
+      "Inspeção: 12/06/2025."
+    ],
+    "responsavel_tecnico": [
+      "Responsável técnico: Patrícia Gomes, Eng. Civil, CREA-PR 123123."
+    ]
+  },
+  "alertas": [
+    {
+      "campo": "ano_construcao",
+      "tipo": "ambiguidade",
+      "detalhe": "O texto menciona apenas 'Ano 2003' sem especificar se é o ano de construção, exigindo tratamento de ambiguidade."
+    }
+  ]
+}

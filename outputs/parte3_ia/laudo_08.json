@@ -1,0 +1,63 @@
+{
+  "arquivo": "laudo_08.txt",
+  "tipo_imovel": "loja térrea com sobreloja",
+  "endereco": "Rua Sete de Setembro, 410, Salvador/BA",
+  "areas": [
+    {
+      "tipo": "construida",
+      "valor_m2": 118.0,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Área construída aproximada: 118 m²"
+    }
+  ],
+  "ano_construcao": null,
+  "valor_avaliacao_brl": 910000.0,
+  "matricula": null,
+  "onus": {
+    "situacao": "nao_informado",
+    "descricao": "não foi possível verificar por ausência de certidão."
+  },
+  "data_vistoria": "2025-04-29",
+  "responsavel_tecnico": "Luciana Prado - CNAI 12345",
+  "evidencias": {
+    "tipo_imovel": [
+      "Imóvel: loja térrea com sobreloja"
+    ],
+    "endereco": [
+      "Endereço: Rua Sete de Setembro, 410, Salvador/BA"
+    ],
+    "areas": [
+      "Área construída aproximada: 118 m²"
+    ],
+    "ano_construcao": [
+      "Ano de referência: 2005"
+    ],
+    "valor_avaliacao_brl": [
+      "Valor de avaliação R$ 910.000,00"
+    ],
+    "matricula": [
+      "Matrícula não apresentada."
+    ],
+    "onus": [
+      "Ônus: não foi possível verificar por ausência de certidão."
+    ],
+    "data_vistoria": [
+      "Vistoria efetuada em 29/04/2025."
+    ],
+    "responsavel_tecnico": [
+      "Avaliadora responsável: Luciana Prado - CNAI 12345."
+    ]
+  },
+  "alertas": [
+    {
+      "campo": "ano_construcao",
+      "tipo": "ambiguidade",
+      "detalhe": "O documento informa 'Ano de referência: 2005', o qual não especifica o ano de construção."
+    },
+    {
+      "campo": "matricula",
+      "tipo": "ausente",
+      "detalhe": "Matrícula não apresentada."
+    }
+  ]
+}

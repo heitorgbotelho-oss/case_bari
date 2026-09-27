@@ -1,0 +1,63 @@
+{
+  "arquivo": "laudo_11.txt",
+  "tipo_imovel": "Terreno",
+  "endereco": "Rua Projetada 4, s/n, Santos, SP",
+  "areas": [
+    {
+      "tipo": "terreno",
+      "valor_m2": null,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Superfície: 1.020 m2."
+    }
+  ],
+  "ano_construcao": null,
+  "valor_avaliacao_brl": 2450000.0,
+  "matricula": "88.710",
+  "onus": {
+    "situacao": "nao_informado",
+    "descricao": "Ônus reais não informados."
+  },
+  "data_vistoria": null,
+  "responsavel_tecnico": "Marcos Vieira, Eng. Civil, CREA-SP 5099988776",
+  "evidencias": {
+    "tipo_imovel": [
+      "Terreno para incorporação localizado na Rua Projetada 4, s/n, Santos, SP."
+    ],
+    "endereco": [
+      "Terreno para incorporação localizado na Rua Projetada 4, s/n, Santos, SP."
+    ],
+    "areas": [
+      "Superfície: 1.020 m2."
+    ],
+    "ano_construcao": [
+      "Sem edificação; ano de construção: inexistente."
+    ],
+    "valor_avaliacao_brl": [
+      "Avaliação final R$ 2.450.000,00."
+    ],
+    "matricula": [
+      "Matrícula 88.710."
+    ],
+    "onus": [
+      "Ônus reais não informados."
+    ],
+    "data_vistoria": [
+      "Data do levantamento: 16/05/2025."
+    ],
+    "responsavel_tecnico": [
+      "Elaborado por: Marcos Vieira, Eng. Civil, CREA-SP 5099988776."
+    ]
+  },
+  "alertas": [
+    {
+      "campo": "ano_construcao",
+      "tipo": "nao_aplicavel",
+      "detalhe": "Imóvel é um terreno sem edificação."
+    },
+    {
+      "campo": "data_vistoria",
+      "tipo": "ausente",
+      "detalhe": "O texto apresenta apenas a data do levantamento (16/05/2025), o que não comprova a realização de vistoria."
+    }
+  ]
+}

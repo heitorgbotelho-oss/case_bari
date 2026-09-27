@@ -1,0 +1,59 @@
+{
+  "arquivo": "laudo_16.txt",
+  "tipo_imovel": "Unidade comercial",
+  "endereco": "Rua do Sol, 250, Campinas/SP",
+  "areas": [
+    {
+      "tipo": "privativa",
+      "valor_m2": 42.0,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Área privativa: 42,00 m²."
+    },
+    {
+      "tipo": "total",
+      "valor_m2": 67.0,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Área total: 67,00m²."
+    }
+  ],
+  "ano_construcao": 2010,
+  "valor_avaliacao_brl": 288000.0,
+  "matricula": "101.010",
+  "onus": {
+    "situacao": "nao_informado",
+    "descricao": "Ônus: sem informação."
+  },
+  "data_vistoria": "2025-06-19",
+  "responsavel_tecnico": "Guilherme Rocha, CREA-SP 501010",
+  "evidencias": {
+    "tipo_imovel": [
+      "Unidade comercial 14, Rua do Sol, 250, Campinas/SP."
+    ],
+    "endereco": [
+      "Unidade comercial 14, Rua do Sol, 250, Campinas/SP."
+    ],
+    "areas": [
+      "Área privativa: 42,00 m².",
+      "Área total: 67,00m²."
+    ],
+    "ano_construcao": [
+      "Construído em 2010."
+    ],
+    "valor_avaliacao_brl": [
+      "Valor de avaliação: R$ 288.000,00."
+    ],
+    "matricula": [
+      "Matrícula 101.010."
+    ],
+    "onus": [
+      "Ônus: sem informação."
+    ],
+    "data_vistoria": [
+      "Vistoria realizada em 19/06/2025."
+    ],
+    "responsavel_tecnico": [
+      "Responsável técnico: Guilherme Rocha, CREA-SP 501010."
+    ]
+  },
+  "alertas": []
+}

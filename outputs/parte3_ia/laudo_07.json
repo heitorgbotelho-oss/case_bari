@@ -1,0 +1,70 @@
+{
+  "arquivo": "laudo_07.txt",
+  "tipo_imovel": "Casa geminada",
+  "endereco": "Rua Azul, 33, bairro Jardim Europa, Porto Alegre - RS",
+  "areas": [
+    {
+      "tipo": "terreno",
+      "valor_m2": null,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Terreno 125,00 m²"
+    },
+    {
+      "tipo": "construida",
+      "valor_m2": null,
+      "valores_conflitantes_m2": [],
+      "texto_original": "área edificada 92,50 m²"
+    }
+  ],
+  "ano_construcao": null,
+  "valor_avaliacao_brl": 372000.0,
+  "matricula": "66.504",
+  "onus": {
+    "situacao": "onus_identificados",
+    "descricao": "Há penhora averbada, conforme documento consultado em 20/04/2025."
+  },
+  "data_vistoria": "2025-04-20",
+  "responsavel_tecnico": "Eng. Rafael Costa, CREA-RS 222333",
+  "evidencias": {
+    "tipo_imovel": [
+      "Casa geminada"
+    ],
+    "endereco": [
+      "Rua Azul, 33, bairro Jardim Europa, Porto Alegre - RS."
+    ],
+    "areas": [
+      "Terreno 125,00 m²",
+      "área edificada 92,50 m²"
+    ],
+    "ano_construcao": [
+      "Ano de construção informado pelo proprietário: 2011."
+    ],
+    "valor_avaliacao_brl": [
+      "Valor venal adotado: R$ 372.000,00."
+    ],
+    "matricula": [
+      "Matrícula 66.504 do Registro de Imóveis da 4ª Zona."
+    ],
+    "onus": [
+      "Há penhora averbada, conforme documento consultado em 20/04/2025."
+    ],
+    "data_vistoria": [
+      "Data da vistoria: 20-04-2025."
+    ],
+    "responsavel_tecnico": [
+      "Responsável: Eng. Rafael Costa, CREA-RS 222333."
+    ]
+  },
+  "alertas": [
+    {
+      "campo": "ano_construcao",
+      "tipo": "ambiguidade",
+      "detalhe": "Ano de construção informado pelo proprietário (declarado de forma não conclusiva)."
+    },
+    {
+      "campo": "areas",
+      "tipo": "nao_aplicavel",
+      "detalhe": "As áreas fornecidas são absolutas (m²), portanto não possuem valor unitário por m² (valor_m2)."
+    }
+  ]
+}

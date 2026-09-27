@@ -1,0 +1,38 @@
+{
+  "modelo": "gemini-3.5-flash-lite",
+  "esperados": 17,
+  "extraidos": 17,
+  "falhas": {},
+  "auditoria": {
+    "laudo_01.txt": [],
+    "laudo_02.txt": [
+      "areas: contradição sem dois candidatos e alerta",
+      "areas: contradição sem dois candidatos e alerta"
+    ],
+    "laudo_03.txt": [
+      "areas: contradição sem dois candidatos e alerta",
+      "areas: contradição sem dois candidatos e alerta"
+    ],
+    "laudo_04.txt": [
+      "areas: contradição sem dois candidatos e alerta"
+    ],
+    "laudo_05.txt": [],
+    "laudo_06.txt": [],
+    "laudo_07.txt": [
+      "areas: contradição sem dois candidatos e alerta",
+      "areas: contradição sem dois candidatos e alerta"
+    ],
+    "laudo_08.txt": [],
+    "laudo_09.txt": [],
+    "laudo_10.txt": [],
+    "laudo_11.txt": [
+      "areas: contradição sem dois candidatos e alerta"
+    ],
+    "laudo_12.txt": [],
+    "laudo_13.txt": [],
+    "laudo_14.txt": [],
+    "laudo_15.txt": [],
+    "laudo_16.txt": [],
+    "laudo_17.txt": []
+  }
+}

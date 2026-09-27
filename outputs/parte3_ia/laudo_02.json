@@ -1,0 +1,59 @@
+{
+  "arquivo": "laudo_02.txt",
+  "tipo_imovel": "casa térrea",
+  "endereco": "Av. Central, 900, bloco B, Belo Horizonte - MG",
+  "areas": [
+    {
+      "tipo": "construida",
+      "valor_m2": null,
+      "valores_conflitantes_m2": [],
+      "texto_original": "146,00 m2 de área construída"
+    },
+    {
+      "tipo": "terreno",
+      "valor_m2": null,
+      "valores_conflitantes_m2": [],
+      "texto_original": "lote de 250 m²"
+    }
+  ],
+  "ano_construcao": 2008,
+  "valor_avaliacao_brl": 680000.0,
+  "matricula": "45.981",
+  "onus": {
+    "situacao": "sem_onus_identificados",
+    "descricao": "Certidão: sem gravames conhecidos."
+  },
+  "data_vistoria": "2025-03-18",
+  "responsavel_tecnico": "Carlos Henrique Moura",
+  "evidencias": {
+    "tipo_imovel": [
+      "Trata-se de uma casa térrea"
+    ],
+    "endereco": [
+      "Av. Central, 900, bloco B, Belo Horizonte - MG."
+    ],
+    "areas": [
+      "146,00 m2 de área construída",
+      "lote de 250 m²"
+    ],
+    "ano_construcao": [
+      "Construída em 2008."
+    ],
+    "valor_avaliacao_brl": [
+      "seiscentos e oitenta mil reais (R$ 680.000)."
+    ],
+    "matricula": [
+      "Registro imobiliário nº 45.981, Cartório do 3º Ofício."
+    ],
+    "onus": [
+      "Certidão: sem gravames conhecidos."
+    ],
+    "data_vistoria": [
+      "18/03/2025."
+    ],
+    "responsavel_tecnico": [
+      "Carlos Henrique Moura, CAU A123456-7."
+    ]
+  },
+  "alertas": []
+}

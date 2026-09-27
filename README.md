@@ -1,77 +1,213 @@
-# case_bari
+# Case Bari
 
-## Executar o notebook
+Projeto em Python para análise de funil de crédito com garantia de imóvel, diagnóstico do cenário atual e extração estruturada de informações de laudos.
 
-O notebook do projeto está em `notebooks/teste.ipynb`. No Windows, abra o PowerShell na pasta raiz do projeto e execute:
+## Visão geral
+
+Este repositório reúne três frentes do case:
+
+- diagnóstico exploratório do funil de crédito;
+- avaliação do impacto de canais, etapas e status finais;
+- extração automatizada de campos de laudos usando IA, com comparação de resultados;
+- relatório semanal automático em HTML para acompanhamento operacional.
+
+Os documentos principais do projeto estão em:
+
+- [RESUMO_EXECUTIVO.md](RESUMO_EXECUTIVO.md): síntese para liderança comercial;
+- [DIARIO.md](DIARIO.md): registro do processo, aprendizados e limitações;
+- [reports/diagnostico_funil.md](reports/diagnostico_funil.md): relatório do diagnóstico do funil (arquivo ainda em evolução);
+
+## Estrutura do projeto
+
+```text
+case_bari/
+├── data/
+│   └── raw/
+│       ├── propostas_credito.csv
+│       └── laudos/
+│           ├── laudo_01.txt
+│           └── ...
+├── notebooks/
+│   ├── 01_diagnostico_funil.ipynb
+│   └── 03_extracao_ia_laudos_completa.ipynb
+├── outputs/
+│   ├── graficos/
+│   ├── parte3_ia/
+│   └── relatorios/
+├── rpa/
+│   ├── executar_semanal.bat
+│   ├── gerar_relatorio_semanal.py
+│   └── requirements.txt
+├── reports/
+│   └── diagnostico_funil.md
+├── DIARIO.md
+├── README.md
+├── RESUMO_EXECUTIVO.md
+├── requirements.txt
+└── logs/
+```
+
+## Requisitos
+
+- Python 3.10+
+- pip
+- Jupyter / VS Code com suporte a notebooks
+
+Dependências do projeto:
+
+```powershell
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+O arquivo de dependências atual inclui:
+
+- pandas
+- numpy
+- matplotlib
+- ipykernel
+
+## Configuração local
+
+No Windows, abra o PowerShell na raiz do projeto e execute:
 
 ```powershell
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
-python -m pip install jupyterlab
+python -m pip install -r requirements.txt
+```
+
+Para abrir os notebooks no ambiente virtual:
+
+```powershell
 python -m jupyter lab
 ```
 
-No JupyterLab, abra `notebooks/teste.ipynb` e execute as células com **Run All**. Também é possível abrir esse arquivo no VS Code, selecionar o kernel Python do ambiente `.venv` e usar **Run All**.
+Em seguida, abra um dos notebooks em `notebooks/` e confirme que o kernel selecionado é o da virtualenv `.venv`.
 
-O notebook atualmente contém apenas exemplos básicos de Python e não precisa de bibliotecas adicionais. O arquivo de dados está em `data/raw/propostas_credito.csv`; como o JupyterLab é iniciado na raiz do projeto, esse é o caminho relativo a usar quando o notebook passar a carregar o CSV. A instrução de upload presente no notebook é voltada ao Google Colab e não é necessária para execução local.
+## Notebooks
 
-## Parte 2: relatório semanal automatizado
+### 01_diagnostico_funil.ipynb
 
-A Parte 2 gera um relatório HTML usando o CSV `data/raw/propostas_credito.csv`:
+Notebook principal de análise do funil de crédito. Ele contém:
 
-- `rpa/gerar_relatorio_semanal.py` carrega e valida os dados, calcula os indicadores e grava o relatório.
-- `rpa/executar_semanal.bat` ativa o fluxo usando o Python do ambiente `.venv` na raiz do projeto e encaminha os argumentos para o script.
+- leitura e validação do CSV de propostas;
+- limpeza e normalização dos campos;
+- recorte de registros conforme regra do case;
+- cálculo de conversão, canais, status e valor solicitado;
+- diagnóstico de LTV solicitado;
+- exploração dos pontos de maior valor sem contratação observada.
 
-### Preparar o ambiente
+### 03_extracao_ia_laudos_completa.ipynb
 
-Na primeira configuração, abra o PowerShell na raiz do projeto e instale as dependências no ambiente virtual usado pelo BAT:
+Notebook dedicado à extração de campos de laudos usando IA. Ele inclui:
 
-```powershell
-py -m venv .venv
-.\.venv\Scripts\python.exe -m pip install --upgrade pip
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-```
+- leitura dos arquivos em `data/raw/laudos/`;
+- normalização do esquema de saída;
+- chamadas à API para extração estruturada em JSON;
+- comparação dos campos extraídos com uma referência;
+- registro de divergências e itens não extraídos.
 
-Confirme que `data/raw/propostas_credito.csv` existe antes de executar o relatório.
+## Relatório semanal automatizado
 
-### Executar manualmente
+A geração do relatório semanal está implementada em:
 
-Para gerar o relatório da semana atual, de segunda a domingo, execute o BAT **sem parâmetros**:
+- `rpa/gerar_relatorio_semanal.py`
+- `rpa/executar_semanal.bat`
+
+### Objetivo
+
+O script gera um relatório HTML a partir do CSV `data/raw/propostas_credito.csv`, agrupando propostas pela data de entrada e apresentando:
+
+- propostas recebidas;
+- volume contratado;
+- conversão observada;
+- distribuição por canal;
+- valor solicitado não contratado por etapa máxima;
+- status final registrado no CSV;
+- alertas e contexto de qualidade dos dados.
+
+### Como executar manualmente
+
+Na raiz do projeto, execute:
 
 ```powershell
 & ".\rpa\executar_semanal.bat"
 ```
 
-Para gerar o relatório da semana que contém uma data específica, informe `--referencia` no formato `AAAA-MM-DD`:
+Isso gera um relatório para a semana atual, de segunda a domingo.
+
+Para uma data específica, use:
 
 ```powershell
 & ".\rpa\executar_semanal.bat" --referencia 2025-01-01
 ```
 
-Esse exemplo seleciona a semana de segunda-feira, 30/12/2024, a domingo, 05/01/2025. A referência seleciona a semana que contém a data; não significa necessariamente uma semana começando no dia 1º do mês. Não passe uma referência fixa na tarefa recorrente, a menos que queira que ela gere sempre o relatório histórico daquela semana.
+A referência seleciona a semana que contém a data informada. O arquivo final fica em:
 
-Por padrão, o HTML é gravado em `outputs/relatorios/relatorio_DATA.html`, em que `DATA` é a segunda-feira que inicia o período. A execução e eventuais erros também são registrados em `logs/execucao.log`. Se o CSV não tiver propostas na semana escolhida, o relatório será gerado com zero propostas e um alerta de período vazio.
+```text
+outputs/relatorios/relatorio_<YYYY-MM-DD>.html
+```
 
-### Agendar no Agendador de Tarefas do Windows
+onde a data corresponde ao início da semana (segunda-feira). O log da execução é gravado em:
 
-1. Abra o menu Iniciar, pesquise **Agendador de Tarefas** e abra o aplicativo.
-2. No painel **Ações**, escolha **Criar Tarefa Básica...**. Dê um nome, por exemplo `Relatório semanal do funil`, e avance.
-3. Escolha a frequência desejada, normalmente **Semanal**, e configure dia e horário. Para o relatório da semana atual, agende a execução no momento em que deseja gerar ou atualizar o resumo dessa semana.
-4. Em **Ação**, selecione **Iniciar um programa**.
-5. Em **Programa/script**, informe o caminho completo do BAT, por exemplo:
+```text
+logs/execucao.log
+```
 
-	```text
-	\case_bari\rpa\executar_semanal.bat
-	```
+## Dados
 
-6. Deixe **Adicionar argumentos (opcional)** vazio para gerar a semana atual. Para uma execução histórica pontual, informe, por exemplo, `--referencia 2025-01-01`.
-7. Em **Iniciar em (opcional)**, informe a raiz do projeto, por exemplo:
+### Arquivo principal
 
-	```text
-	\case_bari
-	```
+```text
+data/raw/propostas_credito.csv
+```
 
-8. Conclua o assistente. Para conferir a configuração, localize a tarefa na Biblioteca do Agendador, abra **Propriedades** e use **Executar** para fazer um teste.
+Contém as propostas de crédito analisadas no funil, com as colunas usadas para:
 
-A conta do Windows que executa a tarefa precisa ter permissão de leitura no CSV e permissão de gravação nas pastas `outputs/relatorios` e `logs`. O BAT localiza a raiz do projeto a partir do próprio arquivo, então também funciona se o Agendador usar outro diretório de trabalho.
+- identificar entrada da proposta;
+- segmentar por canal e tipo de imóvel;
+- operar a conversão e etapas do funil;
+- calcular valor solicitado e LTV.
+
+### Laudos
+
+Os laudos estão em:
+
+```text
+data/raw/laudos/
+```
+
+Cada arquivo contém o texto de um laudo sintético utilizado na parte de extração de dados via IA.
+
+## Saídas e artefatos
+
+- `outputs/graficos/`: gráficos de diagnóstico e exploração;
+- `outputs/parte3_ia/`: JSONs e comparações da extração de laudos;
+- `outputs/relatorios/`: relatórios HTML gerados pelo script semanal;
+- `logs/`: registros de execução e erros;
+- `reports/`: relatórios textuais e consolidados.
+
+## Observações importantes
+
+- O projeto foi desenvolvido com dados sintéticos do case Bari.
+- Os registros de `Terreno` foram excluídos da análise principal, conforme regra do desafio.
+- A conversão e os indicadores são observacionais; não representam causalidade entre canal, etapa e contratação.
+- O relatório semanal usa o status atual presente no CSV da execução, sem histórico completo de mudança de status ao longo do tempo.
+
+## Fluxo recomendado
+
+1. Preparar ambiente virtual e instalar dependências.
+2. Abrir e executar `notebooks/01_diagnostico_funil.ipynb`.
+3. Revisar o resumo executivo em [RESUMO_EXECUTIVO.md](RESUMO_EXECUTIVO.md).
+4. Executar o relatório semanal com `rpa/executar_semanal.bat`.
+5. Consultar `DIARIO.md` para contexto do processo, limitações e aprendizados.
+
+## Próximo passo
+
+Se quiser, posso também:
+
+- revisar e enriquecer [reports/diagnostico_funil.md](reports/diagnostico_funil.md);
+- criar um guia de execução mais detalhado por etapa;
+- preparar uma versão do README em inglês ou com badges e tabela de status.

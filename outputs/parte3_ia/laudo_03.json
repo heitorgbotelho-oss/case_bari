@@ -1,0 +1,65 @@
+{
+  "arquivo": "laudo_03.txt",
+  "tipo_imovel": "sala comercial",
+  "endereco": "Rua do Comércio, 77, Edifício Horizonte, sala 503, Curitiba/PR",
+  "areas": [
+    {
+      "tipo": "util",
+      "valor_m2": null,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Área útil 54,8 m²"
+    },
+    {
+      "tipo": "comum",
+      "valor_m2": null,
+      "valores_conflitantes_m2": [],
+      "texto_original": "área comum proporcional 18,2 m²"
+    }
+  ],
+  "ano_construcao": null,
+  "valor_avaliacao_brl": 395500.0,
+  "matricula": "77.201",
+  "onus": {
+    "situacao": "onus_identificados",
+    "descricao": "Consta alienação fiduciária em favor de instituição financeira; recomenda-se atualização da certidão."
+  },
+  "data_vistoria": "2025-03-22",
+  "responsavel_tecnico": "Arq. Beatriz Nunes (CAU A987654-3)",
+  "evidencias": {
+    "tipo_imovel": [
+      "sala comercial 503"
+    ],
+    "endereco": [
+      "Edifício Horizonte, Rua do Comércio, 77, Curitiba/PR"
+    ],
+    "areas": [
+      "Área útil 54,8 m²",
+      "área comum proporcional 18,2 m²"
+    ],
+    "ano_construcao": [
+      "Idade aparente: 11 anos."
+    ],
+    "valor_avaliacao_brl": [
+      "R$ 395.500,00"
+    ],
+    "matricula": [
+      "Matrícula 77.201 - 5º Registro de Imóveis."
+    ],
+    "onus": [
+      "Consta alienação fiduciária em favor de instituição financeira; recomenda-se atualização da certidão."
+    ],
+    "data_vistoria": [
+      "Em 22 de março de 2025 vistoriamos"
+    ],
+    "responsavel_tecnico": [
+      "Arq. Beatriz Nunes (CAU A987654-3)"
+    ]
+  },
+  "alertas": [
+    {
+      "campo": "ano_construcao",
+      "tipo": "ambiguidade",
+      "detalhe": "O texto apresenta apenas a idade aparente do imóvel (11 anos), não informando o ano de construção."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "arquivo": "laudo_10.txt",
+  "tipo_imovel": "apartamento",
+  "endereco": "SQN 214, bloco C, apto 407, Condomínio Parque Norte, Brasília/DF",
+  "areas": [
+    {
+      "tipo": "privativa",
+      "valor_m2": 96.3,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Área privativa 96,3 m²."
+    },
+    {
+      "tipo": "total",
+      "valor_m2": 127.6,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Área total 127,6 m²."
+    }
+  ],
+  "ano_construcao": 2016,
+  "valor_avaliacao_brl": 735000.0,
+  "matricula": "201.443",
+  "onus": {
+    "situacao": "onus_identificados",
+    "descricao": "alienação fiduciária mencionada na matrícula."
+  },
+  "data_vistoria": "2025-05-09",
+  "responsavel_tecnico": "Denise Carvalho, CREA-DF 112233",
+  "evidencias": {
+    "tipo_imovel": [
+      "Bem avaliando: apartamento no Condomínio Parque Norte, Brasília/DF, SQN 214, bloco C, apto 407."
+    ],
+    "endereco": [
+      "Bem avaliando: apartamento no Condomínio Parque Norte, Brasília/DF, SQN 214, bloco C, apto 407."
+    ],
+    "areas": [
+      "Área privativa 96,3 m².",
+      "Área total 127,6 m²."
+    ],
+    "ano_construcao": [
+      "Ano de conclusão 2016."
+    ],
+    "valor_avaliacao_brl": [
+      "Valor de mercado: R$ 735.000,00."
+    ],
+    "matricula": [
+      "Registro: matrícula 201.443."
+    ],
+    "onus": [
+      "Gravames: alienação fiduciária mencionada na matrícula."
+    ],
+    "data_vistoria": [
+      "Vistoria em 09/05/2025."
+    ],
+    "responsavel_tecnico": [
+      "Perita: Denise Carvalho, CREA-DF 112233."
+    ]
+  },
+  "alertas": []
+}

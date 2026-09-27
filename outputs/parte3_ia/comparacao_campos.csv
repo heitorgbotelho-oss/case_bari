@@ -1,0 +1,154 @@
+﻿arquivo,campo,acerto,extraido,esperado,obtido,preenchimento_indevido
+laudo_01.txt,tipo_imovel,True,True,apartamento residencial,apartamento residencial,False
+laudo_01.txt,endereco,True,True,"Rua das Acácias, 145, ap. 82 - Vila Mariana, São Paulo/SP","Rua das Acácias, 145, ap. 82 - Vila Mariana, São Paulo/SP",False
+laudo_01.txt,areas,True,True,"[('privativa', 78.4, ()), ('total', 102.1, ())]","[{'tipo': 'privativa', 'valor_m2': 78.4, 'valores_conflitantes_m2': [], 'texto_original': 'Área privativa: 78,40 m²'}, {'tipo': 'total', 'valor_m2': 102.1, 'valores_conflitantes_m2': [], 'texto_original': 'área total: 102,10 m²'}]",False
+laudo_01.txt,ano_construcao,True,True,2014,2014,False
+laudo_01.txt,valor_avaliacao_brl,True,True,642000,642000.0,False
+laudo_01.txt,matricula,False,True,184.772,184.772 do 14º CRI de São Paulo,False
+laudo_01.txt,onus,True,True,sem_onus_identificados,"{'situacao': 'sem_onus_identificados', 'descricao': 'não foram identificados ônus na certidão analisada.'}",False
+laudo_01.txt,data_vistoria,True,True,2025-03-12,2025-03-12,False
+laudo_01.txt,responsavel_tecnico,True,True,Eng. Marina Albuquerque - CREA-SP 5061234567,Eng. Marina Albuquerque - CREA-SP 5061234567.,False
+laudo_02.txt,tipo_imovel,True,True,casa térrea,casa térrea,False
+laudo_02.txt,endereco,True,True,"Av. Central, 900, bloco B, Belo Horizonte - MG","Av. Central, 900, bloco B, Belo Horizonte - MG",False
+laudo_02.txt,areas,False,True,"[('construida', 146, ()), ('terreno', 250, ())]","[{'tipo': 'construida', 'valor_m2': None, 'valores_conflitantes_m2': [], 'texto_original': '146,00 m2 de área construída'}, {'tipo': 'terreno', 'valor_m2': None, 'valores_conflitantes_m2': [], 'texto_original': 'lote de 250 m²'}]",False
+laudo_02.txt,ano_construcao,True,True,2008,2008,False
+laudo_02.txt,valor_avaliacao_brl,True,True,680000,680000.0,False
+laudo_02.txt,matricula,True,True,45.981,45.981,False
+laudo_02.txt,onus,True,True,sem_onus_identificados,"{'situacao': 'sem_onus_identificados', 'descricao': 'Certidão: sem gravames conhecidos.'}",False
+laudo_02.txt,data_vistoria,True,True,2025-03-18,2025-03-18,False
+laudo_02.txt,responsavel_tecnico,False,True,"Carlos Henrique Moura, CAU A123456-7",Carlos Henrique Moura,False
+laudo_03.txt,tipo_imovel,False,True,sala comercial 503,sala comercial,False
+laudo_03.txt,endereco,False,True,"Edifício Horizonte, Rua do Comércio, 77, Curitiba/PR","Rua do Comércio, 77, Edifício Horizonte, sala 503, Curitiba/PR",False
+laudo_03.txt,areas,False,True,"[('util', 54.8, ()), ('comum', 18.2, ())]","[{'tipo': 'util', 'valor_m2': None, 'valores_conflitantes_m2': [], 'texto_original': 'Área útil 54,8 m²'}, {'tipo': 'comum', 'valor_m2': None, 'valores_conflitantes_m2': [], 'texto_original': 'área comum proporcional 18,2 m²'}]",False
+laudo_03.txt,ano_construcao,True,True,None,None,False
+laudo_03.txt,valor_avaliacao_brl,True,True,395500,395500.0,False
+laudo_03.txt,matricula,True,True,77.201,77.201,False
+laudo_03.txt,onus,True,True,onus_identificados,"{'situacao': 'onus_identificados', 'descricao': 'Consta alienação fiduciária em favor de instituição financeira; recomenda-se atualização da certidão.'}",False
+laudo_03.txt,data_vistoria,True,True,2025-03-22,2025-03-22,False
+laudo_03.txt,responsavel_tecnico,True,True,Arq. Beatriz Nunes (CAU A987654-3),Arq. Beatriz Nunes (CAU A987654-3),False
+laudo_04.txt,tipo_imovel,True,True,terreno urbano,terreno urbano,False
+laudo_04.txt,endereco,True,True,"Lote 18, Quadra F, Rua Ipê Amarelo, Goiânia/GO","Lote 18, Quadra F, Rua Ipê Amarelo, Goiânia/GO",False
+laudo_04.txt,areas,False,True,"[('terreno', 360, ())]","[{'tipo': 'terreno', 'valor_m2': None, 'valores_conflitantes_m2': [], 'texto_original': 'Área do terreno: 360 m2'}]",False
+laudo_04.txt,ano_construcao,True,True,None,None,False
+laudo_04.txt,valor_avaliacao_brl,True,True,218000,218000.0,False
+laudo_04.txt,matricula,True,True,102.334,102.334,False
+laudo_04.txt,onus,True,True,nao_informado,"{'situacao': 'nao_informado', 'descricao': 'nada informado no documento apresentado'}",False
+laudo_04.txt,data_vistoria,True,True,2025-04-02,2025-04-02,False
+laudo_04.txt,responsavel_tecnico,True,True,"Paulo Sérgio Reis, CREA 12345/D-GO","Paulo Sérgio Reis, CREA 12345/D-GO",False
+laudo_05.txt,tipo_imovel,True,True,imóvel rural denominado Sítio Boa Vista,imóvel rural denominado Sítio Boa Vista,False
+laudo_05.txt,endereco,False,True,"Município de Campinas, UF SP","Campinas, SP",False
+laudo_05.txt,areas,True,True,"[('terreno', 48000, ()), ('construida', 310, ())]","[{'tipo': 'terreno', 'valor_m2': 48000.0, 'valores_conflitantes_m2': [], 'texto_original': 'Área do terreno: 4,8 ha'}, {'tipo': 'construida', 'valor_m2': 310.0, 'valores_conflitantes_m2': [], 'texto_original': 'benfeitorias construídas: 310 m²'}]",False
+laudo_05.txt,ano_construcao,True,True,1999,1999,False
+laudo_05.txt,valor_avaliacao_brl,True,True,1275000,1275000.0,False
+laudo_05.txt,matricula,True,True,32.110,32.110,False
+laudo_05.txt,onus,True,True,onus_identificados,"{'situacao': 'onus_identificados', 'descricao': 'reserva legal registrada; não foi apontada hipoteca.'}",False
+laudo_05.txt,data_vistoria,True,True,2025-04-07,2025-04-07,False
+laudo_05.txt,responsavel_tecnico,True,True,"João A. Farias, CREA-SP 5076543210","João A. Farias, CREA-SP 5076543210",False
+laudo_06.txt,tipo_imovel,True,True,apartamento,Apartamento,False
+laudo_06.txt,endereco,True,True,"Rua das Palmeiras, 1.210, Recife/PE, CEP 50000-100","Rua das Palmeiras, 1.210, Recife/PE, CEP 50000-100",False
+laudo_06.txt,areas,True,True,"[('privativa', 61, ()), ('total', 84, ())]","[{'tipo': 'privativa', 'valor_m2': 61.0, 'valores_conflitantes_m2': [], 'texto_original': 'Área privativa 61m²'}, {'tipo': 'total', 'valor_m2': 84.0, 'valores_conflitantes_m2': [], 'texto_original': 'área total 84m²'}]",False
+laudo_06.txt,ano_construcao,False,True,2018,None,False
+laudo_06.txt,valor_avaliacao_brl,True,True,455000,455000.0,False
+laudo_06.txt,matricula,False,True,9.876,"9.876, 2º RGI do Recife",False
+laudo_06.txt,onus,True,True,nao_informado,"{'situacao': 'nao_informado', 'descricao': 'Não consta informação sobre ônus.'}",False
+laudo_06.txt,data_vistoria,True,True,2025-04-15,2025-04-15,False
+laudo_06.txt,responsavel_tecnico,True,True,"Fernanda Lins, CREA 18001/PE","Fernanda Lins, CREA 18001/PE",False
+laudo_07.txt,tipo_imovel,True,True,casa geminada,Casa geminada,False
+laudo_07.txt,endereco,True,True,"Rua Azul, 33, bairro Jardim Europa, Porto Alegre - RS","Rua Azul, 33, bairro Jardim Europa, Porto Alegre - RS",False
+laudo_07.txt,areas,False,True,"[('terreno', 125, ()), ('construida', 92.5, ())]","[{'tipo': 'terreno', 'valor_m2': None, 'valores_conflitantes_m2': [], 'texto_original': 'Terreno 125,00 m²'}, {'tipo': 'construida', 'valor_m2': None, 'valores_conflitantes_m2': [], 'texto_original': 'área edificada 92,50 m²'}]",False
+laudo_07.txt,ano_construcao,False,True,2011,None,False
+laudo_07.txt,valor_avaliacao_brl,True,True,372000,372000.0,False
+laudo_07.txt,matricula,True,True,66.504,66.504,False
+laudo_07.txt,onus,True,True,onus_identificados,"{'situacao': 'onus_identificados', 'descricao': 'Há penhora averbada, conforme documento consultado em 20/04/2025.'}",False
+laudo_07.txt,data_vistoria,True,True,2025-04-20,2025-04-20,False
+laudo_07.txt,responsavel_tecnico,True,True,"Eng. Rafael Costa, CREA-RS 222333","Eng. Rafael Costa, CREA-RS 222333",False
+laudo_08.txt,tipo_imovel,True,True,loja térrea com sobreloja,loja térrea com sobreloja,False
+laudo_08.txt,endereco,True,True,"Rua Sete de Setembro, 410, Salvador/BA","Rua Sete de Setembro, 410, Salvador/BA",False
+laudo_08.txt,areas,True,True,"[('construida', 118, ())]","[{'tipo': 'construida', 'valor_m2': 118.0, 'valores_conflitantes_m2': [], 'texto_original': 'Área construída aproximada: 118 m²'}]",False
+laudo_08.txt,ano_construcao,True,True,None,None,False
+laudo_08.txt,valor_avaliacao_brl,True,True,910000,910000.0,False
+laudo_08.txt,matricula,True,True,None,None,False
+laudo_08.txt,onus,True,True,nao_informado,"{'situacao': 'nao_informado', 'descricao': 'não foi possível verificar por ausência de certidão.'}",False
+laudo_08.txt,data_vistoria,True,True,2025-04-29,2025-04-29,False
+laudo_08.txt,responsavel_tecnico,True,True,Luciana Prado - CNAI 12345,Luciana Prado - CNAI 12345,False
+laudo_09.txt,tipo_imovel,True,True,casa residencial,Casa residencial,False
+laudo_09.txt,endereco,True,True,"Alameda das Flores 88, Florianópolis/SC","Alameda das Flores 88, Florianópolis/SC",False
+laudo_09.txt,areas,True,True,"[('terreno', 420, ()), ('construida', 198, ())]","[{'tipo': 'terreno', 'valor_m2': 420.0, 'valores_conflitantes_m2': [], 'texto_original': 'Área do lote 420,00 m²'}, {'tipo': 'construida', 'valor_m2': 198.0, 'valores_conflitantes_m2': [], 'texto_original': 'área construída 198,00 m²'}]",False
+laudo_09.txt,ano_construcao,True,True,2020,2020,False
+laudo_09.txt,valor_avaliacao_brl,True,True,1080000,1080000.0,False
+laudo_09.txt,matricula,False,True,12.909,"12.909, 1º Ofício",False
+laudo_09.txt,onus,True,True,sem_onus_identificados,"{'situacao': 'sem_onus_identificados', 'descricao': 'A certidão indica inexistência de ônus reais.'}",False
+laudo_09.txt,data_vistoria,True,True,2025-05-03,2025-05-03,False
+laudo_09.txt,responsavel_tecnico,True,True,"Eng. Thiago Martins, CREA-SC 7654321","Eng. Thiago Martins, CREA-SC 7654321",False
+laudo_10.txt,tipo_imovel,True,True,apartamento,apartamento,False
+laudo_10.txt,endereco,False,True,"Condomínio Parque Norte, Brasília/DF, SQN 214, bloco C, apto 407","SQN 214, bloco C, apto 407, Condomínio Parque Norte, Brasília/DF",False
+laudo_10.txt,areas,True,True,"[('privativa', 96.3, ()), ('total', 127.6, ())]","[{'tipo': 'privativa', 'valor_m2': 96.3, 'valores_conflitantes_m2': [], 'texto_original': 'Área privativa 96,3 m².'}, {'tipo': 'total', 'valor_m2': 127.6, 'valores_conflitantes_m2': [], 'texto_original': 'Área total 127,6 m².'}]",False
+laudo_10.txt,ano_construcao,True,True,2016,2016,False
+laudo_10.txt,valor_avaliacao_brl,True,True,735000,735000.0,False
+laudo_10.txt,matricula,True,True,201.443,201.443,False
+laudo_10.txt,onus,True,True,onus_identificados,"{'situacao': 'onus_identificados', 'descricao': 'alienação fiduciária mencionada na matrícula.'}",False
+laudo_10.txt,data_vistoria,True,True,2025-05-09,2025-05-09,False
+laudo_10.txt,responsavel_tecnico,True,True,"Denise Carvalho, CREA-DF 112233","Denise Carvalho, CREA-DF 112233",False
+laudo_11.txt,tipo_imovel,False,True,terreno para incorporação,Terreno,False
+laudo_11.txt,endereco,True,True,"Rua Projetada 4, s/n, Santos, SP","Rua Projetada 4, s/n, Santos, SP",False
+laudo_11.txt,areas,False,True,"[('terreno', 1020, ())]","[{'tipo': 'terreno', 'valor_m2': None, 'valores_conflitantes_m2': [], 'texto_original': 'Superfície: 1.020 m2.'}]",False
+laudo_11.txt,ano_construcao,True,True,None,None,False
+laudo_11.txt,valor_avaliacao_brl,True,True,2450000,2450000.0,False
+laudo_11.txt,matricula,True,True,88.710,88.710,False
+laudo_11.txt,onus,True,True,nao_informado,"{'situacao': 'nao_informado', 'descricao': 'Ônus reais não informados.'}",False
+laudo_11.txt,data_vistoria,True,True,None,None,False
+laudo_11.txt,responsavel_tecnico,True,True,"Marcos Vieira, Eng. Civil, CREA-SP 5099988776","Marcos Vieira, Eng. Civil, CREA-SP 5099988776",False
+laudo_12.txt,tipo_imovel,True,True,casa de alto padrão,casa de alto padrão,False
+laudo_12.txt,endereco,True,True,"Rua das Bromélias, 500, Lago Sul, Brasília - DF","Rua das Bromélias, 500, Lago Sul, Brasília - DF",False
+laudo_12.txt,areas,True,True,"[('construida', 285, ()), ('terreno', 600, ())]","[{'tipo': 'construida', 'valor_m2': 285.0, 'valores_conflitantes_m2': [], 'texto_original': 'Área construída de 285 m²'}, {'tipo': 'terreno', 'valor_m2': 600.0, 'valores_conflitantes_m2': [], 'texto_original': 'terreno com 600 m²'}]",False
+laudo_12.txt,ano_construcao,True,True,None,None,False
+laudo_12.txt,valor_avaliacao_brl,True,True,2180000,2180000.0,False
+laudo_12.txt,matricula,True,True,54.122,54.122,False
+laudo_12.txt,onus,True,True,onus_identificados,"{'situacao': 'onus_identificados', 'descricao': 'servidão de passagem registrada'}",False
+laudo_12.txt,data_vistoria,True,True,2025-05-23,2025-05-23,False
+laudo_12.txt,responsavel_tecnico,True,True,"Arq. Andréa Melo, CAU A445566-1","Arq. Andréa Melo, CAU A445566-1",False
+laudo_13.txt,tipo_imovel,True,True,apartamento,Apartamento,False
+laudo_13.txt,endereco,True,True,"Av. Brasil 1770, ap. 1201, Rio de Janeiro/RJ","Av. Brasil 1770, ap. 1201, Rio de Janeiro/RJ",False
+laudo_13.txt,areas,True,True,"[('util', 112, ()), ('total', 155, ())]","[{'tipo': 'util', 'valor_m2': 112.0, 'valores_conflitantes_m2': [], 'texto_original': 'Área útil: 112,00m².'}, {'tipo': 'total', 'valor_m2': 155.0, 'valores_conflitantes_m2': [], 'texto_original': 'Área total: 155,00m².'}]",False
+laudo_13.txt,ano_construcao,True,True,1987,1987,False
+laudo_13.txt,valor_avaliacao_brl,True,True,1320000,1320000.0,False
+laudo_13.txt,matricula,False,True,145.230,145.230 do 7º RGI,False
+laudo_13.txt,onus,True,True,onus_cancelado,"{'situacao': 'onus_cancelado', 'descricao': 'penhora cancelada, conforme averbação; documento não informa data do cancelamento.'}",False
+laudo_13.txt,data_vistoria,True,True,2025-05-30,2025-05-30,False
+laudo_13.txt,responsavel_tecnico,True,True,"Eduardo Sampaio, CNAI 67890","Eduardo Sampaio, CNAI 67890",False
+laudo_14.txt,tipo_imovel,True,True,galpão industrial,galpão industrial,False
+laudo_14.txt,endereco,True,True,"Rodovia BR-116, km 12, Betim/MG","Rodovia BR-116, km 12, Betim/MG",False
+laudo_14.txt,areas,True,True,"[('coberta', 1450, ()), ('terreno', 3000, ())]","[{'tipo': 'coberta', 'valor_m2': 1450.0, 'valores_conflitantes_m2': [], 'texto_original': 'Área coberta: 1.450 m²'}, {'tipo': 'terreno', 'valor_m2': 3000.0, 'valores_conflitantes_m2': [], 'texto_original': 'terreno: 3.000 m²'}]",False
+laudo_14.txt,ano_construcao,True,True,None,None,False
+laudo_14.txt,valor_avaliacao_brl,True,True,3900000,3900000.0,False
+laudo_14.txt,matricula,True,True,70.008,70.008,False
+laudo_14.txt,onus,True,True,nao_informado,"{'situacao': 'nao_informado', 'descricao': 'Não há menção a ônus.'}",False
+laudo_14.txt,data_vistoria,True,True,2025-06-05,2025-06-05,False
+laudo_14.txt,responsavel_tecnico,True,True,"Sérgio Tavares, CREA-MG 998877","Sérgio Tavares, CREA-MG 998877.",False
+laudo_15.txt,tipo_imovel,True,True,casa,casa,False
+laudo_15.txt,endereco,True,True,"Rua Monte Verde, 19, Curitiba-PR","Rua Monte Verde, 19, Curitiba-PR",False
+laudo_15.txt,areas,True,True,"[('terreno', 200, ()), ('construida', 135, ())]","[{'tipo': 'terreno', 'valor_m2': 200.0, 'valores_conflitantes_m2': [], 'texto_original': 'Área do terreno 200 m²'}, {'tipo': 'construida', 'valor_m2': 135.0, 'valores_conflitantes_m2': [], 'texto_original': 'área construída 135 m²'}]",False
+laudo_15.txt,ano_construcao,True,True,None,None,False
+laudo_15.txt,valor_avaliacao_brl,True,True,590000,590000.0,False
+laudo_15.txt,matricula,True,True,39.240,39.240,False
+laudo_15.txt,onus,True,True,onus_identificados,"{'situacao': 'onus_identificados', 'descricao': 'A certidão consultada informa hipoteca ativa.'}",False
+laudo_15.txt,data_vistoria,True,True,2025-06-12,2025-06-12,False
+laudo_15.txt,responsavel_tecnico,False,True,"Patrícia Gomes, Eng. Civil, CREA-PR 123123",Patrícia Gomes,False
+laudo_16.txt,tipo_imovel,False,True,unidade comercial 14,Unidade comercial,False
+laudo_16.txt,endereco,True,True,"Rua do Sol, 250, Campinas/SP","Rua do Sol, 250, Campinas/SP",False
+laudo_16.txt,areas,True,True,"[('privativa', 42, ()), ('total', 67, ())]","[{'tipo': 'privativa', 'valor_m2': 42.0, 'valores_conflitantes_m2': [], 'texto_original': 'Área privativa: 42,00 m².'}, {'tipo': 'total', 'valor_m2': 67.0, 'valores_conflitantes_m2': [], 'texto_original': 'Área total: 67,00m².'}]",False
+laudo_16.txt,ano_construcao,True,True,2010,2010,False
+laudo_16.txt,valor_avaliacao_brl,True,True,288000,288000.0,False
+laudo_16.txt,matricula,True,True,101.010,101.010,False
+laudo_16.txt,onus,True,True,nao_informado,"{'situacao': 'nao_informado', 'descricao': 'Ônus: sem informação.'}",False
+laudo_16.txt,data_vistoria,True,True,2025-06-19,2025-06-19,False
+laudo_16.txt,responsavel_tecnico,True,True,"Guilherme Rocha, CREA-SP 501010","Guilherme Rocha, CREA-SP 501010",False
+laudo_17.txt,tipo_imovel,True,True,apartamento residencial,apartamento residencial,False
+laudo_17.txt,endereco,True,True,"Rua Harmonia, 44, Vila Madalena, São Paulo/SP","Rua Harmonia, 44, Vila Madalena, São Paulo/SP",False
+laudo_17.txt,areas,True,True,"[('privativa', 70, ()), ('total', None, (92, 95))]","[{'tipo': 'privativa', 'valor_m2': 70.0, 'valores_conflitantes_m2': [], 'texto_original': 'Área privativa 70 m²'}, {'tipo': 'total', 'valor_m2': None, 'valores_conflitantes_m2': [95.0, 92.0], 'texto_original': 'área total 95 m², porém a tabela interna registra 92 m²'}]",False
+laudo_17.txt,ano_construcao,True,True,2015,2015,False
+laudo_17.txt,valor_avaliacao_brl,True,True,610000,610000.0,False
+laudo_17.txt,matricula,True,True,176.543,176.543,False
+laudo_17.txt,onus,True,True,sem_onus_declarados_sem_certidao,"{'situacao': 'sem_onus_declarados_sem_certidao', 'descricao': 'não há ônus, segundo declaração do proprietário; certidão não anexada'}",False
+laudo_17.txt,data_vistoria,True,True,2025-06-25,2025-06-25,False
+laudo_17.txt,responsavel_tecnico,True,True,"Marina Albuquerque, CREA-SP 5061234567","Marina Albuquerque, CREA-SP 5061234567",False

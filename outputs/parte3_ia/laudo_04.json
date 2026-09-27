@@ -1,0 +1,63 @@
+{
+  "arquivo": "laudo_04.txt",
+  "tipo_imovel": "terreno urbano",
+  "endereco": "Lote 18, Quadra F, Rua Ipê Amarelo, Goiânia/GO",
+  "areas": [
+    {
+      "tipo": "terreno",
+      "valor_m2": null,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Área do terreno: 360 m2"
+    }
+  ],
+  "ano_construcao": null,
+  "valor_avaliacao_brl": 218000.0,
+  "matricula": "102.334",
+  "onus": {
+    "situacao": "nao_informado",
+    "descricao": "nada informado no documento apresentado"
+  },
+  "data_vistoria": "2025-04-02",
+  "responsavel_tecnico": "Paulo Sérgio Reis, CREA 12345/D-GO",
+  "evidencias": {
+    "tipo_imovel": [
+      "Tipo: terreno urbano"
+    ],
+    "endereco": [
+      "Endereço do imóvel: Lote 18, Quadra F, Rua Ipê Amarelo, Goiânia/GO"
+    ],
+    "areas": [
+      "Área do terreno: 360 m2"
+    ],
+    "ano_construcao": [
+      "Ano: não se aplica"
+    ],
+    "valor_avaliacao_brl": [
+      "Valor de mercado R$ 218.000"
+    ],
+    "matricula": [
+      "Matrícula 102.334"
+    ],
+    "onus": [
+      "Ônus e restrições: nada informado no documento apresentado"
+    ],
+    "data_vistoria": [
+      "Data da vistoria 02/04/2025"
+    ],
+    "responsavel_tecnico": [
+      "RT: Paulo Sérgio Reis, CREA 12345/D-GO"
+    ]
+  },
+  "alertas": [
+    {
+      "campo": "ano_construcao",
+      "tipo": "nao_aplicavel",
+      "detalhe": "O laudo declara que o ano não se aplica por se tratar de um terreno."
+    },
+    {
+      "campo": "areas",
+      "tipo": "revisao_manual",
+      "detalhe": "A área informada refere-se à área total do terreno, portanto o valor unitário por metro quadrado não se aplica diretamente sem outras informações de valor global."
+    }
+  ]
+}

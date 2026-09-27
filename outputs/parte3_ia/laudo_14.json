@@ -1,0 +1,70 @@
+{
+  "arquivo": "laudo_14.txt",
+  "tipo_imovel": "galpão industrial",
+  "endereco": "Rodovia BR-116, km 12, Betim/MG",
+  "areas": [
+    {
+      "tipo": "coberta",
+      "valor_m2": 1450.0,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Área coberta: 1.450 m²"
+    },
+    {
+      "tipo": "terreno",
+      "valor_m2": 3000.0,
+      "valores_conflitantes_m2": [],
+      "texto_original": "terreno: 3.000 m²"
+    }
+  ],
+  "ano_construcao": null,
+  "valor_avaliacao_brl": 3900000.0,
+  "matricula": "70.008",
+  "onus": {
+    "situacao": "nao_informado",
+    "descricao": "Não há menção a ônus."
+  },
+  "data_vistoria": "2025-06-05",
+  "responsavel_tecnico": "Sérgio Tavares, CREA-MG 998877.",
+  "evidencias": {
+    "tipo_imovel": [
+      "galpão industrial"
+    ],
+    "endereco": [
+      "Rodovia BR-116, km 12, Betim/MG"
+    ],
+    "areas": [
+      "Área coberta: 1.450 m²",
+      "terreno: 3.000 m²"
+    ],
+    "ano_construcao": [
+      "Idade: aproximadamente 18 anos"
+    ],
+    "valor_avaliacao_brl": [
+      "Valor indicado pelo método comparativo: R$ 3.900.000"
+    ],
+    "matricula": [
+      "70.008"
+    ],
+    "onus": [
+      "Não há menção a ônus."
+    ],
+    "data_vistoria": [
+      "05/06/2025"
+    ],
+    "responsavel_tecnico": [
+      "Sérgio Tavares, CREA-MG 998877."
+    ]
+  },
+  "alertas": [
+    {
+      "campo": "ano_construcao",
+      "tipo": "ambiguidade",
+      "detalhe": "O texto apresenta apenas a idade aproximada do imóvel (18 anos), e não o ano de construção."
+    },
+    {
+      "campo": "onus",
+      "tipo": "ausente",
+      "detalhe": "O documento apenas indica ausência de menção, sem certidão negativa explícita, impossibilitando categorizar como sem ônus comprovados por certidão."
+    }
+  ]
+}

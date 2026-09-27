@@ -1,0 +1,59 @@
+{
+  "arquivo": "laudo_01.txt",
+  "tipo_imovel": "apartamento residencial",
+  "endereco": "Rua das Acácias, 145, ap. 82 - Vila Mariana, São Paulo/SP",
+  "areas": [
+    {
+      "tipo": "privativa",
+      "valor_m2": 78.4,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Área privativa: 78,40 m²"
+    },
+    {
+      "tipo": "total",
+      "valor_m2": 102.1,
+      "valores_conflitantes_m2": [],
+      "texto_original": "área total: 102,10 m²"
+    }
+  ],
+  "ano_construcao": 2014,
+  "valor_avaliacao_brl": 642000.0,
+  "matricula": "184.772 do 14º CRI de São Paulo",
+  "onus": {
+    "situacao": "sem_onus_identificados",
+    "descricao": "não foram identificados ônus na certidão analisada."
+  },
+  "data_vistoria": "2025-03-12",
+  "responsavel_tecnico": "Eng. Marina Albuquerque - CREA-SP 5061234567.",
+  "evidencias": {
+    "tipo_imovel": [
+      "apartamento residencial"
+    ],
+    "endereco": [
+      "Rua das Acácias, 145, ap. 82 - Vila Mariana, São Paulo/SP"
+    ],
+    "areas": [
+      "Área privativa: 78,40 m²",
+      "área total: 102,10 m²"
+    ],
+    "ano_construcao": [
+      "2014"
+    ],
+    "valor_avaliacao_brl": [
+      "R$ 642.000,00"
+    ],
+    "matricula": [
+      "184.772 do 14º CRI de São Paulo"
+    ],
+    "onus": [
+      "não foram identificados ônus na certidão analisada."
+    ],
+    "data_vistoria": [
+      "12/03/2025"
+    ],
+    "responsavel_tecnico": [
+      "Eng. Marina Albuquerque - CREA-SP 5061234567."
+    ]
+  },
+  "alertas": []
+}

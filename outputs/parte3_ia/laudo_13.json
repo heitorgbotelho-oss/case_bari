@@ -1,0 +1,59 @@
+{
+  "arquivo": "laudo_13.txt",
+  "tipo_imovel": "Apartamento",
+  "endereco": "Av. Brasil 1770, ap. 1201, Rio de Janeiro/RJ",
+  "areas": [
+    {
+      "tipo": "util",
+      "valor_m2": 112.0,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Área útil: 112,00m²."
+    },
+    {
+      "tipo": "total",
+      "valor_m2": 155.0,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Área total: 155,00m²."
+    }
+  ],
+  "ano_construcao": 1987,
+  "valor_avaliacao_brl": 1320000.0,
+  "matricula": "145.230 do 7º RGI",
+  "onus": {
+    "situacao": "onus_cancelado",
+    "descricao": "penhora cancelada, conforme averbação; documento não informa data do cancelamento."
+  },
+  "data_vistoria": "2025-05-30",
+  "responsavel_tecnico": "Eduardo Sampaio, CNAI 67890",
+  "evidencias": {
+    "tipo_imovel": [
+      "Apartamento, Av. Brasil 1770, ap. 1201, Rio de Janeiro/RJ."
+    ],
+    "endereco": [
+      "Apartamento, Av. Brasil 1770, ap. 1201, Rio de Janeiro/RJ."
+    ],
+    "areas": [
+      "Área útil: 112,00m².",
+      "Área total: 155,00m²."
+    ],
+    "ano_construcao": [
+      "Ano de construção: 1987."
+    ],
+    "valor_avaliacao_brl": [
+      "Valor estimado em R$ 1.320.000,00."
+    ],
+    "matricula": [
+      "Matrícula 145.230 do 7º RGI."
+    ],
+    "onus": [
+      "Ônus: penhora cancelada, conforme averbação; documento não informa data do cancelamento."
+    ],
+    "data_vistoria": [
+      "Vistoria 30/05/2025."
+    ],
+    "responsavel_tecnico": [
+      "Avaliador: Eduardo Sampaio, CNAI 67890."
+    ]
+  },
+  "alertas": []
+}

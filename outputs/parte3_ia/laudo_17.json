@@ -1,0 +1,68 @@
+{
+  "arquivo": "laudo_17.txt",
+  "tipo_imovel": "apartamento residencial",
+  "endereco": "Rua Harmonia, 44, Vila Madalena, São Paulo/SP",
+  "areas": [
+    {
+      "tipo": "privativa",
+      "valor_m2": 70.0,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Área privativa 70 m²"
+    },
+    {
+      "tipo": "total",
+      "valor_m2": null,
+      "valores_conflitantes_m2": [
+        95.0,
+        92.0
+      ],
+      "texto_original": "área total 95 m², porém a tabela interna registra 92 m²"
+    }
+  ],
+  "ano_construcao": 2015,
+  "valor_avaliacao_brl": 610000.0,
+  "matricula": "176.543",
+  "onus": {
+    "situacao": "sem_onus_declarados_sem_certidao",
+    "descricao": "não há ônus, segundo declaração do proprietário; certidão não anexada"
+  },
+  "data_vistoria": "2025-06-25",
+  "responsavel_tecnico": "Marina Albuquerque, CREA-SP 5061234567",
+  "evidencias": {
+    "tipo_imovel": [
+      "apartamento residencial na Rua Harmonia, 44, Vila Madalena, São Paulo/SP"
+    ],
+    "endereco": [
+      "Rua Harmonia, 44, Vila Madalena, São Paulo/SP"
+    ],
+    "areas": [
+      "Área privativa 70 m²",
+      "No cabeçalho consta área total 95 m², porém a tabela interna registra 92 m²"
+    ],
+    "ano_construcao": [
+      "Ano de construção: 2015"
+    ],
+    "valor_avaliacao_brl": [
+      "Valor de avaliação: R$ 610.000,00"
+    ],
+    "matricula": [
+      "Matrícula 176.543"
+    ],
+    "onus": [
+      "Ônus: não há ônus, segundo declaração do proprietário; certidão não anexada"
+    ],
+    "data_vistoria": [
+      "Vistoria em 25/06/2025"
+    ],
+    "responsavel_tecnico": [
+      "Responsável técnico: Marina Albuquerque, CREA-SP 5061234567"
+    ]
+  },
+  "alertas": [
+    {
+      "campo": "areas",
+      "tipo": "contraditorio",
+      "detalhe": "Divergência entre a área total informada no cabeçalho (95 m²) e na tabela interna (92 m²)."
+    }
+  ]
+}

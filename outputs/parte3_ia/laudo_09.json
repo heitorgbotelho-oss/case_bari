@@ -1,0 +1,59 @@
+{
+  "arquivo": "laudo_09.txt",
+  "tipo_imovel": "Casa residencial",
+  "endereco": "Alameda das Flores 88, Florianópolis/SC",
+  "areas": [
+    {
+      "tipo": "terreno",
+      "valor_m2": 420.0,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Área do lote 420,00 m²"
+    },
+    {
+      "tipo": "construida",
+      "valor_m2": 198.0,
+      "valores_conflitantes_m2": [],
+      "texto_original": "área construída 198,00 m²"
+    }
+  ],
+  "ano_construcao": 2020,
+  "valor_avaliacao_brl": 1080000.0,
+  "matricula": "12.909, 1º Ofício",
+  "onus": {
+    "situacao": "sem_onus_identificados",
+    "descricao": "A certidão indica inexistência de ônus reais."
+  },
+  "data_vistoria": "2025-05-03",
+  "responsavel_tecnico": "Eng. Thiago Martins, CREA-SC 7654321",
+  "evidencias": {
+    "tipo_imovel": [
+      "Casa residencial na Alameda das Flores 88, Florianópolis/SC."
+    ],
+    "endereco": [
+      "Alameda das Flores 88, Florianópolis/SC."
+    ],
+    "areas": [
+      "Área do lote 420,00 m²",
+      "área construída 198,00 m²"
+    ],
+    "ano_construcao": [
+      "Construção: 2020."
+    ],
+    "valor_avaliacao_brl": [
+      "Valor apurado: R$ 1.080.000,00."
+    ],
+    "matricula": [
+      "Matrícula 12.909, 1º Ofício."
+    ],
+    "onus": [
+      "A certidão indica inexistência de ônus reais."
+    ],
+    "data_vistoria": [
+      "Inspeção presencial em 03/05/2025."
+    ],
+    "responsavel_tecnico": [
+      "Responsável técnico: Eng. Thiago Martins, CREA-SC 7654321."
+    ]
+  },
+  "alertas": []
+}

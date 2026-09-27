@@ -1,0 +1,65 @@
+{
+  "arquivo": "laudo_06.txt",
+  "tipo_imovel": "Apartamento",
+  "endereco": "Rua das Palmeiras, 1.210, Recife/PE, CEP 50000-100",
+  "areas": [
+    {
+      "tipo": "privativa",
+      "valor_m2": 61.0,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Área privativa 61m²"
+    },
+    {
+      "tipo": "total",
+      "valor_m2": 84.0,
+      "valores_conflitantes_m2": [],
+      "texto_original": "área total 84m²"
+    }
+  ],
+  "ano_construcao": null,
+  "valor_avaliacao_brl": 455000.0,
+  "matricula": "9.876, 2º RGI do Recife",
+  "onus": {
+    "situacao": "nao_informado",
+    "descricao": "Não consta informação sobre ônus."
+  },
+  "data_vistoria": "2025-04-15",
+  "responsavel_tecnico": "Fernanda Lins, CREA 18001/PE",
+  "evidencias": {
+    "tipo_imovel": [
+      "Apartamento situado à Rua das Palmeiras, 1.210, Recife/PE, CEP 50000-100."
+    ],
+    "endereco": [
+      "Rua das Palmeiras, 1.210, Recife/PE, CEP 50000-100."
+    ],
+    "areas": [
+      "Área privativa 61m²",
+      "área total 84m²"
+    ],
+    "ano_construcao": [
+      "Imóvel com 2018 de construção."
+    ],
+    "valor_avaliacao_brl": [
+      "Avaliação: R$ 455.000,00 (quatrocentos e cinquenta e cinco mil)."
+    ],
+    "matricula": [
+      "Matrícula: 9.876, 2º RGI do Recife."
+    ],
+    "onus": [
+      "Não consta informação sobre ônus."
+    ],
+    "data_vistoria": [
+      "Vistoria: 15/04/2025."
+    ],
+    "responsavel_tecnico": [
+      "Responsável técnico: Fernanda Lins, CREA 18001/PE."
+    ]
+  },
+  "alertas": [
+    {
+      "campo": "ano_construcao",
+      "tipo": "ambiguidade",
+      "detalhe": "O texto menciona apenas '2018 de construção' sem explicitar se é o ano de construção."
+    }
+  ]
+}

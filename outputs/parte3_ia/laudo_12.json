@@ -1,0 +1,65 @@
+{
+  "arquivo": "laudo_12.txt",
+  "tipo_imovel": "casa de alto padrão",
+  "endereco": "Rua das Bromélias, 500, Lago Sul, Brasília - DF",
+  "areas": [
+    {
+      "tipo": "construida",
+      "valor_m2": 285.0,
+      "valores_conflitantes_m2": [],
+      "texto_original": "Área construída de 285 m²"
+    },
+    {
+      "tipo": "terreno",
+      "valor_m2": 600.0,
+      "valores_conflitantes_m2": [],
+      "texto_original": "terreno com 600 m²"
+    }
+  ],
+  "ano_construcao": null,
+  "valor_avaliacao_brl": 2180000.0,
+  "matricula": "54.122",
+  "onus": {
+    "situacao": "onus_identificados",
+    "descricao": "servidão de passagem registrada"
+  },
+  "data_vistoria": "2025-05-23",
+  "responsavel_tecnico": "Arq. Andréa Melo, CAU A445566-1",
+  "evidencias": {
+    "tipo_imovel": [
+      "Tipo de propriedade: casa de alto padrão"
+    ],
+    "endereco": [
+      "Local: Rua das Bromélias, 500, Lago Sul, Brasília - DF"
+    ],
+    "areas": [
+      "Área construída de 285 m²",
+      "terreno com 600 m²"
+    ],
+    "ano_construcao": [
+      "Ano informado: 2012"
+    ],
+    "valor_avaliacao_brl": [
+      "Preço/valor de avaliação: R$ 2.180.000,00"
+    ],
+    "matricula": [
+      "Matrícula 54.122"
+    ],
+    "onus": [
+      "Ônus: servidão de passagem registrada."
+    ],
+    "data_vistoria": [
+      "Data da visita técnica 23/05/2025."
+    ],
+    "responsavel_tecnico": [
+      "Responsável pelo trabalho: Arq. Andréa Melo, CAU A445566-1."
+    ]
+  },
+  "alertas": [
+    {
+      "campo": "ano_construcao",
+      "tipo": "ambiguidade",
+      "detalhe": "O documento informa 'Ano informado: 2012' sem especificar se é o ano de construção, exigindo anulação e alerta de ambiguidade."
+    }
+  ]
+}
