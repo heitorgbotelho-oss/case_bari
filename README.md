@@ -1,21 +1,19 @@
 # Desafio Prático — Estágio AI & Data Lab | Bari 
 
-Projeto em Python para análise de funil de crédito com garantia de imóvel, diagnóstico do cenário atual e extração estruturada de informações de laudos.
+Projeto em Python para analisar o funil de crédito com garantia de imóvel, extrair informações de laudos e gerar relatórios semanais.
 
 ## Visão geral
 
-Este repositório reúne três frentes do case:
+Este repositório reúne três entregas principais:
 
-- diagnóstico exploratório do funil de crédito;
-- avaliação do impacto de canais, etapas e status finais;
+- diagnóstico exploratório do funil, incluindo canais, etapas, status e LTV solicitado;
 - extração automatizada de campos de laudos usando IA, com comparação de resultados;
-- relatório semanal automático em HTML para acompanhamento operacional.
+- script para gerar relatório semanal em HTML.
 
 Os documentos principais do projeto estão em:
 
 - [RESUMO_EXECUTIVO.md](RESUMO_EXECUTIVO.md): síntese para liderança comercial;
-- [DIARIO.md](DIARIO.md): registro do processo, aprendizados e limitações;
-- [reports/diagnostico_funil.md](reports/diagnostico_funil.md): relatório do diagnóstico do funil (arquivo ainda em evolução);
+- [DIARIO.md](DIARIO.md): registro do processo, aprendizados e limitações.
 
 ## Estrutura do projeto
 
@@ -38,7 +36,6 @@ case_bari/
 │   ├── executar_semanal.bat
 │   ├── gerar_relatorio_semanal.py
 │   └── requirements.txt
-|
 ├── DIARIO.md
 ├── README.md
 ├── RESUMO_EXECUTIVO.md
@@ -104,7 +101,7 @@ Notebook dedicado à extração estruturada dos 17 laudos com a API Gemini. O pr
 
 ### Como funciona
 
-1. Abra `notebooks/03_extracao_ia_laudos_completa.ipynb` no VS Code e selecione o kernel da `.venv`. Execute as células de cima para baixo; informe `GEMINI_API_KEY` ou `GOOGLE_API_KEY` quando solicitado. O notebook lê os 17 laudos em `data/raw/laudos/`.
+1. Abra `notebooks/03_extracao_ia_laudos_completa.ipynb` no VS Code e selecione o kernel da `.venv`. Execute as células de cima para baixo: a primeira instala `google-genai`, Pydantic e pandas. Informe `GEMINI_API_KEY` ou `GOOGLE_API_KEY` quando solicitado. O notebook lê os 17 laudos em `data/raw/laudos/`.
 2. Para cada texto, o notebook envia à Gemini API um prompt e um esquema Pydantic, solicitando uma resposta JSON com campos, evidências e alertas. A resposta é validada no Python; em seguida, uma auditoria confere evidências literais e regras básicas. Faça primeiro o teste com um laudo e depois execute o lote. Chamadas à API podem consumir cota.
 3. Revise os JSONs e as pendências: formato válido e evidência literal não garantem interpretação correta. A comparação usa uma referência inicial assistida por IA, que deve ser conferida nos documentos originais antes de tratar as métricas como avaliação independente.
 
@@ -112,7 +109,7 @@ Os resultados são salvos em `outputs/parte3_ia/`: JSON individual por laudo, `l
 
 ## Relatório semanal automatizado
 
-A geração do relatório semanal está implementada em:
+O script para gerar o relatório semanal está em:
 
 - `rpa/gerar_relatorio_semanal.py`
 - `rpa/executar_semanal.bat`
@@ -157,6 +154,8 @@ onde a data corresponde ao início da semana (segunda-feira). O log da execuçã
 logs/execucao.log
 ```
 
+O arquivo `.bat` executa o script quando chamado; ele não cria um agendamento. Para rodar semanalmente sem intervenção, configure uma tarefa no Agendador de Tarefas do Windows.
+
 ## Dados
 
 ### Arquivo principal
@@ -187,8 +186,7 @@ Cada arquivo contém o texto de um laudo sintético utilizado na parte de extra�
 - `outputs/graficos/`: gráficos de diagnóstico e exploração;
 - `outputs/parte3_ia/`: JSONs e comparações da extração de laudos;
 - `outputs/relatorios/`: relatórios HTML gerados pelo script semanal;
-- `logs/`: registros de execução e erros;
-- `reports/`: relatórios textuais e consolidados.
+- `logs/`: registros de execução e erros.
 
 ## Observações importantes
 
@@ -206,4 +204,4 @@ Cada arquivo contém o texto de um laudo sintético utilizado na parte de extra�
 5. Executar o relatório semanal com `rpa/executar_semanal.bat`, se necessário.
 6. Consultar `DIARIO.md` para contexto do processo, limitações e aprendizados.
 
-A conta do Windows que executa a tarefa semanal precisa ter permissão de leitura no CSV e permissão de gravação nas pastas `outputs/relatorios` e `logs`. O BAT localiza a raiz do projeto a partir do próprio arquivo, então também funciona se o Agendador usar outro diretório de trabalho.
+A conta do Windows que executa a tarefa precisa ter permissão de leitura no CSV e de gravação em `outputs/relatorios` e `logs`. O BAT localiza a raiz do projeto a partir do próprio arquivo, mesmo que o Agendador use outro diretório de trabalho.
