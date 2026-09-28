@@ -38,8 +38,7 @@ case_bari/
 │   ├── executar_semanal.bat
 │   ├── gerar_relatorio_semanal.py
 │   └── requirements.txt
-├── reports/
-│   └── diagnostico_funil.md
+|
 ├── DIARIO.md
 ├── README.md
 ├── RESUMO_EXECUTIVO.md
@@ -101,13 +100,15 @@ Notebook principal de análise do funil de crédito. Ele contém:
 
 ### 03_extracao_ia_laudos_completa.ipynb
 
-Notebook dedicado à extração de campos de laudos usando IA. Ele inclui:
+Notebook dedicado à extração estruturada dos 17 laudos com a API Gemini. O processo não se limita a pedir um JSON ao modelo: define um contrato de dados, solicita evidências textuais, valida a resposta localmente e compara os campos extraídos com uma referência que deve ser revisada por uma pessoa.
 
-- leitura dos arquivos em `data/raw/laudos/`;
-- normalização do esquema de saída;
-- chamadas à API para extração estruturada em JSON;
-- comparação dos campos extraídos com uma referência;
-- registro de divergências e itens não extraídos.
+### Como funciona
+
+1. Abra `notebooks/03_extracao_ia_laudos_completa.ipynb` no VS Code e selecione o kernel da `.venv`. Execute as células de cima para baixo; informe `GEMINI_API_KEY` ou `GOOGLE_API_KEY` quando solicitado. O notebook lê os 17 laudos em `data/raw/laudos/`.
+2. Para cada texto, o notebook envia à Gemini API um prompt e um esquema Pydantic, solicitando uma resposta JSON com campos, evidências e alertas. A resposta é validada no Python; em seguida, uma auditoria confere evidências literais e regras básicas. Faça primeiro o teste com um laudo e depois execute o lote. Chamadas à API podem consumir cota.
+3. Revise os JSONs e as pendências: formato válido e evidência literal não garantem interpretação correta. A comparação usa uma referência inicial assistida por IA, que deve ser conferida nos documentos originais antes de tratar as métricas como avaliação independente.
+
+Os resultados são salvos em `outputs/parte3_ia/`: JSON individual por laudo, `laudos_extraidos.jsonl`, `execucao.json` com falhas e auditorias, e `comparacao_campos.csv` com diferenças por campo. Reiniciar o kernel perde os resultados mantidos em memória e pode levar a novas chamadas à API.
 
 ## Relatório semanal automatizado
 
@@ -166,7 +167,6 @@ data/raw/propostas_credito.csv
 
 Contém as propostas de crédito analisadas no funil, com as colunas usadas para:
 
-<<<<<<< HEAD
 - identificar entrada da proposta;
 - segmentar por canal e tipo de imóvel;
 - operar a conversão e etapas do funil;
@@ -201,17 +201,9 @@ Cada arquivo contém o texto de um laudo sintético utilizado na parte de extra�
 
 1. Preparar ambiente virtual e instalar dependências.
 2. Abrir e executar `notebooks/01_diagnostico_funil.ipynb`.
-3. Revisar o resumo executivo em [RESUMO_EXECUTIVO.md](RESUMO_EXECUTIVO.md).
-4. Executar o relatório semanal com `rpa/executar_semanal.bat`.
-5. Consultar `DIARIO.md` para contexto do processo, limitações e aprendizados.
+3. Executar a extração de laudos seguindo o passo a passo acima, se essa etapa fizer parte da análise.
+4. Revisar o resumo executivo em [RESUMO_EXECUTIVO.md](RESUMO_EXECUTIVO.md).
+5. Executar o relatório semanal com `rpa/executar_semanal.bat`, se necessário.
+6. Consultar `DIARIO.md` para contexto do processo, limitações e aprendizados.
 
-## Próximo passo
-
-Se quiser, posso também:
-
-- revisar e enriquecer [reports/diagnostico_funil.md](reports/diagnostico_funil.md);
-- criar um guia de execução mais detalhado por etapa;
-- preparar uma versão do README em inglês ou com badges e tabela de status.
-=======
-A conta do Windows que executa a tarefa precisa ter permissão de leitura no CSV e permissão de gravação nas pastas `outputs/relatorios` e `logs`. O BAT localiza a raiz do projeto a partir do próprio arquivo, então também funciona se o Agendador usar outro diretório de trabalho.
->>>>>>> cbc1d02003a6ce4a04dc37293df41a001822dd4d
+A conta do Windows que executa a tarefa semanal precisa ter permissão de leitura no CSV e permissão de gravação nas pastas `outputs/relatorios` e `logs`. O BAT localiza a raiz do projeto a partir do próprio arquivo, então também funciona se o Agendador usar outro diretório de trabalho.

@@ -18,7 +18,6 @@ Após o recorte exigido pelo desafio (535 propostas com imóvel do tipo Terreno 
 | 2 | Contato ativo com **526** propostas “Sem retorno” que chegaram à etapa 3 | **R$ 10,38 mi**, se **5%** dos R$ 207,69 mi solicitados nesse grupo virarem contratos |
 | 3 | Checklist e lembretes para **398** propostas com documentação pendente na etapa 5 | **R$ 7,63 mi**, se **5%** dos R$ 152,57 mi solicitados nesse grupo virarem contratos |
 
-\* **Cenários, não previsões:** os percentuais são hipóteses para dimensionar pilotos. Os públicos podem se sobrepor, portanto **não se somam** os três valores. Crédito solicitado adicional não equivale a receita, lucro ou desembolso.
 
 **Decisão solicitada:** autorizar pilotos controlados e informar a **data de corte dos status**, o histórico de passagem entre etapas e os **valores de crédito aprovados/desembolsados**. Esses dados permitem distinguir propostas ainda abertas de perdas definitivas e avaliar o retorno real das ações. O LTV calculado aqui usa o pedido original; contratos acima de 60% nessa medida não comprovam exceção à política sem conhecer o valor aprovado e a avaliação adotada.
 
