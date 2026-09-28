@@ -17,10 +17,16 @@ Em aproximadamente **1 a 2 horas**, aprendi três conceitos e apliquei cada um n
 
 ## c) Autocrítica
 
-Os principais limites são a falta de histórico e de valores aprovados ou desembolsados, que impede confirmar causas e perdas reais; o RPA foi testado com datas diferentes, mas sobre o mesmo CSV; e o extrator ainda não foi avaliado contra uma referência independente. 
+**O que na minha entrega eu sei que está fraco:**
 
-Com **mais 40 horas**, testaria novas cargas e falhas, obteria dados históricos e analisaria linha por linha de cada código, afim de evitar ao máximo falhas.
+- Por ainda estar **desenvolvendo meu conhecimento sobre o negócio**, minha análise crítica das premissas e dos resultados ficou limitada. Isso dificultou avaliar se cada parte do projeto atende plenamente às necessidades da área comercial. 
 
-**Pergunta que eu faria ao time de negócios antes de começar:** Qual decisão de negócio este projeto deve apoiar e quais definições devo usar para medir o resultado — especialmente o que conta como conversão ou perda, qual status considerar e se o valor de crédito é o solicitado, aprovado ou desembolsado
+**O que eu faria com mais 40 horas:**
 
-**Fontes usadas:** enunciado e dados sintéticos fornecidos no case; documentação oficial da [Gemini API (saída estruturada)](https://ai.google.dev/gemini-api/docs/structured-output). Nenhum dado real de cliente foi utilizado.
+- **Com mais 40 horas de trabalho**, eu buscaria esclarecer o significado de cada demanda com o time de negócio, revisar os scripts linha por linha e validar os resultados à partir dessas regras. Esse aprofundamento permitiria corrigir possíveis inconsistências e apresentar recomendações mais bem fundamentadas.
+
+**Pergunta que eu faria ao time de negócios antes de começar:** 
+
+- Qual decisão vocês esperam tomar com esta análise? Priorizar canais, recuperar propostas paradas ou melhorar a conversão geral?
+- Como o negócio calcula o LTV usado na política: com o valor solicitado ou aprovado? Qual avaliação do imóvel vale para essa regra?
+- Como funciona cada uma das etapas de forma detalhada? 
